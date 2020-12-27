@@ -1,0 +1,272 @@
+/* index page title csss */
+body{
+  overflow-x: hidden;
+}
+.bg-light{
+  background-color: #cccbcb !important;
+}
+.navbar-brand{
+font-size: 25px;
+}
+.navbar-nav{
+margin-left: auto;
+}
+p.cp{
+color: white;
+}
+.btn-dark:hover{
+background-color: darkgray;
+color: black;
+
+}
+
+
+.our-courses{
+background-color: dimgray;
+height: auto;
+}
+.our-courses-h2{
+text-align: center;
+color: white;
+padding-top: 20px;
+
+}
+.card-img-top{
+height: 300px;
+width: auto;
+border-radius: 50px;
+}
+.card-img-top:hover{
+transform: scale(0.9);
+
+}
+.card-body{
+height: 160px;
+width: auto;
+}
+.card-text{
+
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.card{
+border-radius: 50px;
+
+}
+.read-more{
+text-decoration: none;
+font-size: 20px;
+}
+.read-more:hover{
+color: black;
+}
+.nav-link:hover{
+padding-top:7px !important;
+border-left: 2px solid #00aeef;
+border-right: 2px solid #00aeef;
+font-weight: bold;
+}
+.navbar-brand:hover{
+
+}
+
+/* footer css */
+.bg-white{
+  background-color: #cccbcb !important;
+
+  
+}
+#button-addon1 {
+  color: black;
+}
+
+i {
+  color: black;
+  font-size: 25px !important;
+}
+i:hover{
+  color: #00aeef !important;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: black;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+.footer-anchor{
+  text-decoration: none !important;
+  color: black;
+}
+.footer-anchor:hover{
+font-weight: bold;
+color: black;
+}
+.text-uppercase{
+  font-size: 18px;
+  color: #00aeef;
+}
+   /* about us css */
+    .text-center{
+      font-size: 30px;
+      color: black;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      padding-top: 90px;
+    }
+    .text-center p{
+      color: black;
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+.breadcrumb-item a{
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+.breadcrumb-item:hover{
+  border-bottom: 1px solid #cccbcb;
+   background-color: #00aeef;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+  color: black !important;
+}
+
+/* divide screen */
+.col-text {
+  height:20em;
+}
+.grid-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  flex-direction: row; 
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+}
+.col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.col-left {
+  -webkit-box-ordinal-group:-1;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+.col-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Aligner-item {
+  width: 60%;
+}
+.col-image {
+  background-size: cover;
+  background-position:center center;
+}
+
+@media (max-width: 640px) {
+  .grid-flex {
+    height: 40em;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column; 
+   }
+  .col {
+    order:vertical;
+  }
+  .col-left {
+    -webkit-box-ordinal-group:0;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  .col-text div p {
+    padding: 1em;
+  }
+  .Aligner-item {
+    width: 90%;
+  }
+}
+
+.about{
+  color: black;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* form css */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: dimgray;
+  color: white;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+@media (max-width: 474px) {
+  .breadcrumb-2{
+    margin-bottom: -20px;
+
+    
+  }
+  .breadcrumb-3{
+     margin-bottom: 30px;
+  }
+}
+
+.modal-content{
+  height: 500px !important;
+  background-image: url(../images-icon/123.jpg) !important ;
+
+ 
+}
+.modal-title{
+font-weight: bold;
+color: white !important;
+}
+.btn-close{
+  color: white !important;
+}
